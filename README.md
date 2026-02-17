@@ -1,43 +1,76 @@
-# Exploratory Data Analysis (EDA) – House Prices Dataset
+#  Exploratory Data Analysis (EDA) – House Prices Dataset  
 
-## Overview
-In this assignment, Exploratory Data Analysis (EDA) techniques were applied to a real estate dataset.  
-The goal is to understand the structure of the data, discover patterns, and identify factors that may influence house prices.
+## Overview  
 
-## Dataset
-The dataset contains information about properties such as:
-- Location
-- Price (in rupees)
-- Carpet area
-- Number of bathrooms
-- Furnishing status
-- Ownership
-- Transaction type
-and other related attributes.
+This project applies Exploratory Data Analysis (EDA) techniques to a real estate dataset.  
+The objective is to understand the dataset structure, identify patterns, and determine the key factors that influence house prices.  
 
-## EDA Steps Performed
-The following analysis steps were completed:
+---
 
-1. Loaded the dataset using pandas.
-2. Inspected column names, data types, and summary statistics.
-3. Cleaned and converted numerical fields where necessary.
-4. Visualized the distribution of house prices using histograms.
-5. Explored relationships between price and other variables using scatter plots.
-6. Analyzed average prices across different locations.
-7. Generated a correlation matrix for numerical features.
+## Dataset Description  
 
-## Key Insights
-- House prices vary significantly depending on the location.
-- Numerical variables such as carpet area and bathrooms show limited direct correlation with price.
-- This suggests that categorical features may play an important role in determining property value.
+The dataset includes property-related attributes such as:  
 
-## Tools & Libraries
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- Location  
+- Price (in rupees)  
+- Carpet Area  
+- Number of Bathrooms  
+- Furnishing Status  
+- Ownership  
+- Transaction Type  
+- Additional property characteristics  
 
-## Conclusion
-EDA helped in understanding the dataset and identifying important patterns and relationships between variables.  
-The analysis provides a strong foundation for further predictive modeling if needed.
+---
+
+## EDA Process  
+
+The following steps were performed:  
+
+1. Loaded the dataset using **Pandas**.  
+2. Inspected column names, data types, and summary statistics.  
+3. Cleaned and converted numerical fields where necessary.  
+4. Visualized the distribution of house prices using histograms.  
+5. Explored relationships between price and other variables using scatter and regression plots.  
+6. Analyzed average prices across different locations.  
+7. Generated a correlation matrix for numerical features.  
+
+---
+
+## Key Findings  
+
+- House prices vary significantly depending on the **location**.  
+- Numerical variables such as **Carpet Area** and **Bathrooms** show limited direct correlation with price.  
+- Categorical features appear to play an important role in determining property value.  
+
+---
+
+## Visualization Libraries Used  
+
+###  Matplotlib  
+Matplotlib is a low-level plotting library that provides full control over visualization customization. It is highly flexible and suitable for creating detailed and customized plots.  
+
+###  Seaborn  
+Seaborn is built on top of Matplotlib and provides a higher-level interface for creating attractive statistical visualizations with less code. It offers better default styling and built-in statistical plots.  
+
+###  Main Difference  
+- **Matplotlib** → More control and customization.  
+- **Seaborn** → Easier to use with better default design and statistical features.  
+
+Both libraries were used to effectively visualize patterns and relationships within the dataset.  
+
+---
+
+## Tools & Technologies  
+
+- Python  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- VS Code  
+
+---
+
+## Conclusion  
+
+EDA provided valuable insights into the dataset and highlighted important factors affecting house prices.  
+The analysis establishes a strong foundation for future predictive modeling and machine learning applications.  
